@@ -3,13 +3,9 @@
 #include <string.h>
 #include "calculadora.h"
 int main(void) {
-   lista_t  *lista;
-   lista = create_list(true);
-   add_element_to_list(lista,1);
-   add_element_to_list(lista,3);
-   add_element_to_list(lista,5);
-   add_element_to_list(lista,6);
-   add_element_to_list(lista,2);
+   no_list_enc_t *lista;
+   lista = create_list(1);
+   add_element_to_list_enc(2);
 
 
 
